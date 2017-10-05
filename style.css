@@ -1,20 +1,3 @@
-/* Larger than mobile */
-@media (min-width: 400px) {}
-
-/* Larger than phablet (also point when grid becomes active) */
-@media (min-width: 750px) {}
-
-/* Larger than tablet */
-@media (min-width: 750px) {}
-
-/* Larger than desktop */
-@media (min-width: 1000px) {}
-
-/* Larger than Desktop HD */
-@media (min-width: 1200px) {}
-
-
-
 body{
   margin: 0;
   font-size: 62.5%;
@@ -99,33 +82,30 @@ h1{
   align-items: center;
   justify-content: center;
   background: linear-gradient(to bottom right, #9B59B6, #BD85D3);
-
+  z-index: 10;
   cursor: pointer;
   color: white;
   border: white 1px solid;
 }
-.mainbutton:nth-child(1){]
+.mainbutton:nth-child(2){
   background-color: #009126;
   background: linear-gradient(to bottom right, #009126, #35BA58);
 
 }
-.mainbutton:nth-child(2){
+.mainbutton:nth-child(3){
   background-color: #036278;
   background: linear-gradient(to bottom right, #036278, #28869C);
 }
-.mainbutton:nth-child(3){
+.mainbutton:nth-child(4){
   background-color: #A2004D;
   background: linear-gradient(to bottom right, #A2004D, #D03B81);
 }
-}
-.mainbutton:nth-child(4){
-  background-color: #09B637;
-  background: linear-gradient(to bottom right, #09B637, #55CB74);
-}
+
 .mainbutton:nth-child(5){
   background-color: #09B637;
   background: linear-gradient(to bottom right, #09B637, #55CB74);
 }
+
 @media (min-width: 750px){
   .mainbutton{
   height: 60px;
@@ -261,10 +241,25 @@ h1{
   border: purple 1px solid;
 }
 
-#blurbox{
+#blurbox1{
+  filter: blur(7px);
+}
+#blurbox2{
+  filter: blur(7px);
+}
+
+#blurbox3{
+  filter: blur(7px);
+}
+#blurbox4{
+  filter: blur(7px);
+}
+#blurbox5{
+  filter: blur(7px);
+}
+.blurbox{
   filter: blur(7px);
   color: #AAAAAA;
-
 }
 .blurbutton{
   color: #00c2c2;
