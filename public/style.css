@@ -1,0 +1,278 @@
+body{
+  margin: 0;
+  font-size: 62.5%;
+font-family: 'Roboto', sans-serif;
+}
+p{
+  font-size: 2em;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+h1{
+  margin: 0;
+
+}
+.app-container{
+  width: 100vw;
+  height: 100vh;
+}
+.main-left-container{
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(70deg, #C21500, #FFC500);
+}
+@media (min-width: 750px){
+  .main-left-container{
+    float: left;
+    width: 50vw;
+    height: 100vh;
+  }
+}
+
+.headercontainer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column;
+  height: 100vh;
+}
+@media (min-width: 750px){
+  .headercontainer{
+    padding-top: 10vh;
+    display: block;
+    height: auto;
+  }
+}
+
+.header{
+  margin: 0;
+  font-size: 10em;
+  text-align: center;
+  color: white;
+  font-family: 'Bangers', cursive;
+
+}
+.app-description{
+  text-align: center;
+  margin-top: 5px;
+  color: white;
+}
+@media (min-width: 750px){
+  .buttoncontainer{
+    bottom: 5vh;
+    width: 50vw;
+    position: absolute;
+  }
+}
+.buttoncontainer{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+
+
+}
+
+.mainbutton{
+  height: 40px;
+  width: 40px;
+  margin: 5px;
+  border-radius: 50%;
+  display: flex;
+  font-size: .5em;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to bottom right, #9B59B6, #BD85D3);
+  z-index: 10;
+  cursor: pointer;
+  color: white;
+  border: white 1px solid;
+}
+.mainbutton:nth-child(2){
+  background-color: #009126;
+  background: linear-gradient(to bottom right, #009126, #35BA58);
+
+}
+.mainbutton:nth-child(3){
+  background-color: #036278;
+  background: linear-gradient(to bottom right, #036278, #28869C);
+}
+.mainbutton:nth-child(4){
+  background-color: #A2004D;
+  background: linear-gradient(to bottom right, #A2004D, #D03B81);
+}
+
+.mainbutton:nth-child(5){
+  background-color: #09B637;
+  background: linear-gradient(to bottom right, #09B637, #55CB74);
+}
+
+@media (min-width: 750px){
+  .mainbutton{
+  height: 60px;
+  width: 60px;
+  margin: 5px;
+  font-size: 1.2em;
+  }
+}
+
+
+.buttondescription{
+  text-align: center;
+  color: white;
+  display: none;
+}
+@media (min-width: 750px){
+  .buttondescription{
+    position: absolute;
+    width: 50vw;
+    bottom: 18vh;
+    display: block;
+}
+}
+
+.home-page{
+  padding-top: 0;
+  width: 100vw;
+}
+@media (min-width: 750px){
+  .home-page{
+
+    width: 50vw;
+
+  }
+}
+.main-right-container{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+@media (min-width: 750px){
+  .main-right-container{
+    float: right;
+    width: 50vw;
+
+  }
+}
+
+
+
+.category{
+  text-align: center;
+  font-family: 'Bangers', cursive;
+  font-size: 2em;
+  color: #AAAAAA;
+}
+@media (min-width: 750px){
+  .category{
+    font-size: 5em;
+  }
+}
+
+
+.character-main{
+  font-size: 15em;
+  text-align: center;
+  margin: 0;
+}
+@media only screen and (min-width : 450px) and (max-width : 750px){
+  .character-main{
+    font-size: 5em;
+  }
+}
+
+.kanjiinformation{
+  font-size: 1.3em;
+}
+@media (min-width: 750px){
+  .kanjiinformation{
+    font-size: 2em;
+  }
+}
+
+
+
+.center{
+  text-align: center;
+}
+
+
+.buttonflex{
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  bottom: 2vh;
+
+}
+@media (min-width: 750px){
+  .buttonflex{
+
+    width: 50vw;
+    bottom: 5vh;
+  }
+}
+.button{
+  height: 40px;
+  width: 40px;
+  margin: 0 10px;
+  border-radius: 50%;
+  display: flex;
+  font-size: .5em;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+@media (min-width: 750px){
+  .button{
+    height: 80px;
+    width: 80px;
+    margin: 5px;
+    border-radius: 50%;
+    font-size: 1.2em;
+    cursor: pointer;
+  }
+}
+
+.nextbutton{
+  color: purple;
+  border: purple 1px solid;
+}
+
+#blurbox1{
+  filter: blur(7px);
+}
+#blurbox2{
+  filter: blur(7px);
+}
+
+#blurbox3{
+  filter: blur(7px);
+}
+#blurbox4{
+  filter: blur(7px);
+}
+#blurbox5{
+  filter: blur(7px);
+}
+.blurbox{
+  filter: blur(7px);
+  color: #AAAAAA;
+}
+.blurbutton{
+  color: #00c2c2;
+  border: #00c2c2 1px solid;
+
+}
+.backbutton{
+  color: green;
+  border: green 1px solid;
+
+}
+
+.nextbutton:hover{
+  cursor: pointer;
+
+}
